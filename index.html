@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Forecast</title>
+</head>
+<body>
+    <header>
+        <h1 id = "head">Weather Forecast</h1>
+    </header>
+    
+    <div class="row">
+        <div class="search-history col-lg-3 col-12">
+            <div id="search-tools">
+                <h3>Search for a City:</h3>
+                <input name="City" type="text" id="city"/>
+                <button id="search-button">search</button>
+            </div>
+            
+        </div>
+
+        <div class="forecast-data col-lg-9 col-12 " id = "all-forecasts">
+            <div id ="today">
+              
+            </div>
+            <div id ="future">
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" 
+    integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+     crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/8c9cfad0f7.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

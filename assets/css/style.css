@@ -1,0 +1,26 @@
+
+#today{
+    text-align: center;
+    width: 70%;
+}
+
+.search-history{
+    width: 30%;
+    margin-top: 70px;
+}
+
+.city-data{
+    line-height: 0%;
+}
+
+.city-data h1{
+    margin: 0px 0px 20px 0px;
+}
+
+#future{
+    display: flex;
+}
+.future-forecast{
+    width: 17.5%;
+    text-align: center;
+}
